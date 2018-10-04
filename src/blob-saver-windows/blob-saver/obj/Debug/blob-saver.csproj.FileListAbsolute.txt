@@ -1,0 +1,15 @@
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\bin\Debug\blob-saver.exe.config
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\bin\Debug\blob-saver.exe
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\bin\Debug\blob-saver.pdb
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\bin\Debug\iMobileDevice-net.dll
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\bin\Debug\iMobileDevice-net.pdb
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\bin\Debug\iMobileDevice-net.xml
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\obj\Debug\blob-saver.csprojResolveAssemblyReference.cache
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\obj\Debug\blob_saver.Form1.resources
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\obj\Debug\blob_saver.Properties.Resources.resources
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\obj\Debug\blob-saver.csproj.GenerateResource.Cache
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\obj\Debug\blob-saver.csproj.CoreCompileInputs.cache
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\obj\Debug\blob-saver.exe
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\obj\Debug\blob-saver.pdb
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\bin\Debug\Newtonsoft.Json.dll
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\blob-saver\blob-saver\bin\Debug\Newtonsoft.Json.xml
