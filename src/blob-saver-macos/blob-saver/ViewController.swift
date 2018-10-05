@@ -10,6 +10,8 @@ import Cocoa
 import Foundation
 import SwiftyJSON
 
+// Thanks to Lars Blumberg for this method.
+// https://stackoverflow.com/a/40040472/8611114
 extension String {
     func matchingStrings(regex: String) -> [[String]] {
         guard let regex = try? NSRegularExpression(pattern: regex, options: []) else { return [] }
@@ -112,7 +114,6 @@ class ViewController: NSViewController {
         request.httpMethod = "POST"
         let postString = "ecid=" + uniqueChipID[0][0] + "&boardConfig=" + hardwareModel[0][0] + "&deviceID=" + productType[0][0];
         request.httpBody = postString.data(using: .utf8)
-        //var resp = "";
         let HTTPTask = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {                                                 // check for fundamental networking error
                 DispatchQueue.main.async {
