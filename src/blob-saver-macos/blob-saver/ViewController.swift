@@ -10,6 +10,7 @@ import Cocoa
 import Foundation
 import SwiftyJSON
 
+
 // Thanks to Lars Blumberg for this method.
 // https://stackoverflow.com/a/40040472/8611114
 extension String {
@@ -59,7 +60,10 @@ class ViewController: NSViewController {
     @IBOutlet var field: NSTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        DispatchQueue.main.async {
+            self.spinner.isHidden = true
+            self.spinner.stopAnimation(Any?.self)
+        }
         // Do any additional setup after loading the view.
         self.setTextInfo()
     }
@@ -106,6 +110,10 @@ class ViewController: NSViewController {
             alert.alertStyle = .warning
             alert.addButton(withTitle: "OK")
             alert.runModal();
+            DispatchQueue.main.async {
+                self.spinner.isHidden = true
+                self.spinner.stopAnimation(Any?.self)
+            }
             return;
         }
         let url = URL(string: "https://tsssaver.1conan.com/app.php")!
@@ -114,6 +122,7 @@ class ViewController: NSViewController {
         request.httpMethod = "POST"
         let postString = "ecid=" + uniqueChipID[0][0] + "&boardConfig=" + hardwareModel[0][0] + "&deviceID=" + productType[0][0];
         request.httpBody = postString.data(using: .utf8)
+        //var resp = "";
         let HTTPTask = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {                                                 // check for fundamental networking error
                 DispatchQueue.main.async {
