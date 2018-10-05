@@ -15,3 +15,12 @@
 
 - Download project
 - Run application located at `builds/blob-saver-windows/blob-saver.exe`
+
+
+# Source code
+
+The source code for each app is available in `src/`.
+
+# License
+
+Both projects are under the GPL-3.0. A copy of the license is available in [license](license).
